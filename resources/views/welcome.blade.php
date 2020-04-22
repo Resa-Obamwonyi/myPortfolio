@@ -52,7 +52,7 @@
 	<!--================ End Home Banner Area =================-->
 
 	<!--================ Start About Us Area =================-->
-	<section class="about_area section_gap">
+	<section class="about_area section_gap" id="about">
 		<div class="container">
 			<div class="row justify-content-start align-items-center">
 				<div class="col-md-5" >
@@ -76,7 +76,7 @@
 							freelancing and brain jostling
 							tech talk sessions. Hit me up!
 						</p>
-						<a class="primary_btn" href="#"><span>Here's a look at my CV</span></a>
+						<a class="primary_btn"  target="_blank" href="https://drive.google.com/open?id=1hLeksNjVUEFjvxH17gKkJCgg3I6YJrPA"><span>Here's a look at my CV</span></a>
 					</div>
 				</div>
 			</div>
@@ -85,27 +85,34 @@
 	<!--================ End About Us Area =================-->
 
 	<!--================Portfolio Area =================-->
-	<section class="about_area portfolio">
+	<section class="about_area section_gap" id="portfolio">
 		<div class="container">
 			<div class="text-center">
 					<div class="main_title" style="padding-bottom: 50px;">
 						<h2>My Portfolio</h2>
+						<h4>Click on Images to view</h4>
 					</div>
 				</div>
 			<div class="row">
 				<div class="col-md-4" >
 					<div>
-						<img class="" src="img/s1.png" width="100%"alt="">
+						<a href="http://immense-lake-93308.herokuapp.com/home" target="_blank" >
+							<img class="" src="img/s1.png" width="100%"alt="">
+						</a>
 					</div>
 				</div>
 				<div class="col-md-4" >
 					<div>
-						<img class="" src="img/s2.png" width="100%"alt="">
+						<a href="http://immense-lake-93308.herokuapp.com/home" target="_blank" >
+							<img class="" src="img/s2.png" width="100%"alt="">
+						</a>
 					</div>
 				</div>
 				<div class="col-md-4" >
 					<div>
-						<img class="" src="img/s3.png" width="100%"alt="">
+						<a href="http://immense-lake-93308.herokuapp.com/home" target="_blank" >
+							<img class="" src="img/s3.png" width="100%"alt="">
+						</a>
 					</div>
 				</div>
 
@@ -115,7 +122,7 @@
 	<!--================Portfolio Area =================-->
 
 	<!--================Contact Area =================-->
-    <section class="contact_area section_gap" style="background-color:white ">
+    <section class="contact_area section_gap" style="background-color:white " id="contact_area">
         <div class="container">
         <div class="text-center">
 					<div class="main_title">
