@@ -15,21 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/about', function () {
-    return view('about');
-});
-
-Route::get('/contact','ContactController@home');
-Route::post('/postcontact','ContactController@sendMail');
-
-
-Route::get('/portfolio', function () {
-    return view('portfolio');
-});
-
-Route::get('/services', function () {
-    return view('services');
-});
-Route::get('/head', function () {
-    return view('head');
-});
+Route::post('/sendMail','EmailController@sendMail');

@@ -153,8 +153,11 @@
                     </div>
                 </div>
                 <div class="col-lg-9 col-xs-12">
-                    <form class="row contact_form" action="{{url('/postcontact')}}" method="post" id="contactForm" novalidate="novalidate">
+                    <form class="row contact_form" action="{{url('/sendMail')}}" method="post" id="contactForm" novalidate="novalidate">
                        {{csrf_field()}}
+                    @if(session('response'))
+                       <div class="alert alert-success">{{session('response')}}</div>
+                    @endif
                         <div class="col-md-6">
                             <div class="form-group">
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
