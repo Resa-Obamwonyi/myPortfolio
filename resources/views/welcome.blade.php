@@ -85,7 +85,7 @@
 	<!--================ End About Us Area =================-->
 
 	<!--================Portfolio Area =================-->
-	<section class="about_area section_gap" id="portfolio">
+	<section class="about_area" id="portfolio" style="background-color:white; padding-bottom: 50px; ">
 		<div class="container">
 			<div class="text-center">
 					<div class="main_title" style="padding-bottom: 50px;">

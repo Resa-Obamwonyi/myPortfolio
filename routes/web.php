@@ -14,8 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/contact', function () {
-    return view('contact');
-});
+Route::get('/contact', 'ContactController@getContact');
+Route::post('/contact', 'ContactController@saveContact');
 
-//Route::get('/contact','ContactController@sendMail');

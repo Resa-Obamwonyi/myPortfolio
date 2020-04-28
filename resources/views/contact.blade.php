@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="col-lg-9 col-xs-12">
-                    <form class="row contact_form" action="{{url('/sendMail')}}" method="post" id="contactForm" novalidate="novalidate">
+                    <form class="row contact_form" action="{{url('/contact')}}" method="post" id="contactForm" novalidate="novalidate">
                        {{csrf_field()}}
                     @if(session('response'))
                        <div class="alert alert-success">{{session('response')}}</div>
