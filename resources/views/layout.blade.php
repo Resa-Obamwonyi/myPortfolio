@@ -35,10 +35,10 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-							<li class="nav-item"><a class="nav-link" href="#contact_area">Contact</a></li>
+							<li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="/#about">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="/#portfolio">Portfolio</a></li>
+							<li class="nav-item"><a class="nav-link" href="/contact">Contact Me</a></li>
 						</ul>
 					</div>
 				</div>
