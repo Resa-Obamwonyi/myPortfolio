@@ -28,17 +28,6 @@ class ContactMe extends Mailable
      */
     public function build()
     {
-        /* $email = 'janeexampexample@example.com';
-        $subject = 'This is a demo!';
-        $name = 'Jane Doe';
-
-        return $this->view('email.contact_email')
-                    ->from($address, $name)
-                    ->cc($address, $name)
-                    ->bcc($address, $name)
-                    ->replyTo($address, $name)
-                    ->subject($subject)
-                    ->with([ 'test_message' => $this->data['message'] ]);
-        return $this->view('view.name'); */
+        
     }
 }
