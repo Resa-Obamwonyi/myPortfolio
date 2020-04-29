@@ -14,6 +14,8 @@ class ContactController extends Controller
 
       public function saveContact(Request $request) { 
 
+      	//dd($request->all());
+
         $this->validate($request, [
             'name' => 'required',
             'email' => 'required|email',
@@ -21,6 +23,18 @@ class ContactController extends Controller
             'message' => 'required'
         ]);
 
+        Mail::send('email.contact_email', ['name' => $request->name,'email' => $request->email,'subject' => $request->subject,'msg' => $request->message],
+                 
+                 function($mail) use ($request)  {
+
+                  $mail->from($request->email, $request->name);
+
+                  $mail->to('theresaobamwonyi@gmail.com')->subject( $request->subject);
+               }
+           );
+
+        return back()->with('success', 'Thank you for your message!');
+ /*
         $contact = new Contact;
 
         $contact->name = $request->name;
@@ -30,17 +44,8 @@ class ContactController extends Controller
 
         $contact->save();
 
-        \Mail::send('email.contact_email',
-             array(
-                 'name' => $request->get('name'),
-                 'email' => $request->get('email'),
-                 'subject' => $request->get('subject'),
-                 'message' => $request->get('message'),
-             ), function($message) use ($request)
-               {
-                  $message->from($request->email);
-                  $message->to('theresaobamwonyi@gmail.com');
-               });
-        return back()->with('success', 'Thank you for your message!');
+        \
+        */
+
 }
 }

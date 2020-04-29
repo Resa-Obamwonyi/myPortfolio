@@ -28,7 +28,7 @@ class ContactMe extends Mailable
      */
     public function build()
     {
-        $email = 'janeexampexample@example.com';
+        /* $email = 'janeexampexample@example.com';
         $subject = 'This is a demo!';
         $name = 'Jane Doe';
 
@@ -39,6 +39,6 @@ class ContactMe extends Mailable
                     ->replyTo($address, $name)
                     ->subject($subject)
                     ->with([ 'test_message' => $this->data['message'] ]);
-        return $this->view('view.name');
+        return $this->view('view.name'); */
     }
 }
