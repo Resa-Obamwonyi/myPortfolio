@@ -1,12 +1,23 @@
 @extends('layout')
 
 @section('content')
+
+
+<style>
+
+@media (max-width: 600px) {
+    
+	.main_title h2{
+		padding-top: 50px;
+			}
+}
+</style>
 	<!--================Contact Area =================-->
     <section class="contact_area section_gap" style="background-color:white " id="contact_area">
         <div class="container">
         <div class="text-center">
 					<div class="main_title">
-						<h2>Contact Me</h2>
+						<h2><strong>Contact Me</strong></h2>
                         @if(Session::has('success'))
         <div class="alert alert-success text-center">{{Session::get('success')}}</div>
                  @endif

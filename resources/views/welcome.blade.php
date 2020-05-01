@@ -32,8 +32,8 @@
 				<div class="row">
 					<div class="col-lg-7">
 						<div class="banner_content">
-							<h1 class="">Theresa Obamwonyi</h1>
-							<h5 class=" " style="margin-bottom: 5px;">Software developer</h5>
+							<h1 class=""><strong>Theresa Obamwonyi</strong></h1>
+							<h5 class=" " style="margin-bottom: 5px;"><strong>Software developer</strong></h5>
 							<h6 class=" " style="padding-bottom:50px;">Laravel | PHP | Javascript | VueJS </h6>
 							<div class="d-flex align-items-center">
 								<a class="primary_btn" href="/contact"><span>Hire Me</span></a>
