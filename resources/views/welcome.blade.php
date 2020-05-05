@@ -6,8 +6,11 @@
 
 @media (max-width: 600px) {
     .banner_inner {
-		background-image: url('../img/about.jpg');
+		background-image: url('../img/i5.jpg');
+		background-repeat: no-repeat;
+        background-size: cover ;
 	}
+
 	.banner_content h1{
 		color: #fff;
 	}
@@ -34,15 +37,15 @@
 						<div class="banner_content">
 							<h1 class=""><strong>Theresa Obamwonyi</strong></h1>
 							<h5 class=" " style="margin-bottom: 5px;"><strong>Software developer</strong></h5>
-							<h6 class=" " style="padding-bottom:50px;">Laravel | PHP | Javascript | VueJS </h6>
+							<h6 class=" " style="padding-bottom:50px;"><b>Laravel | PHP | Javascript | VueJS</b> </h6>
 							<div class="d-flex align-items-center">
-								<a class="primary_btn" href="/contact"><span>Hire Me</span></a>
+								<a class="primary_btn" href="/contact"><span>Contact Me</span></a>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-5">
 						<div class="home_right_img">
-							<img class="" src="img/banner/town.svg" alt="" width="100%">
+							<img class="" src="img/banner/online.svg" alt="" width="100%">
 						</div>
 					</div>
 				</div>
@@ -57,7 +60,7 @@
 			<div class="row justify-content-start align-items-center">
 				<div class="col-md-5" >
 					<div class="about_img"  style="margin-left:20%">
-						<img class="" src="img/about.jpg" width="100%"alt="">
+						<img class="" src="img/i5.jpg" width="100%"alt="">
 					</div>
 				</div>
 
@@ -65,16 +68,16 @@
 					<div class="main_title text-center">
 						<h2>Get to know Me</h2>
 						<p>
-							I am Theresa Obamwonyi, Resa for short. I am an aspiring fullstack software developer, knowledgeable 
-							in front-end languages such as HTML5, CSS, Javascript and backend languages such as PHP.
+							I am <strong>Theresa Obamwonyi</strong>, (Resa). I am an aspiring fullstack software developer, knowledgeable 
+							in front-end languages such as <strong>HTML5, CSS, Javascript</strong> and backend languages such as <strong>PHP</strong>.
 						</p>
 						<p>
-							I am proficient in the Laravel and VueJs.
+							I am proficient in the <b>Laravel and VueJs</b>.
 							I am dedicated to growth, learning and teamwork. This is reflected in my unending quest to add
 							more to my knowledge repository as well as GitHub.(Winks!)
-							I am open to new opportunities to build world class technological solutions, 
+							<b>I am open to new opportunities to build world class technological solutions, 
 							freelancing and brain jostling
-							tech talk sessions. Hit me up!
+							tech talk sessions</b>. Hit me up!
 						</p>
 						<a class="primary_btn"  target="_blank" href="https://drive.google.com/open?id=1hLeksNjVUEFjvxH17gKkJCgg3I6YJrPA"><span>Here's a look at my CV</span></a>
 					</div>
