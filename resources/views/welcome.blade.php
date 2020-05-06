@@ -72,7 +72,7 @@
 							in front-end languages such as <strong>HTML5, CSS, Javascript</strong> and backend languages such as <strong>PHP</strong>.
 						</p>
 						<p>
-							I am proficient in the <b>Laravel and VueJs</b>.
+							I am proficient in <b>Laravel and VueJs</b>.
 							I am dedicated to growth, learning and teamwork. This is reflected in my unending quest to add
 							more to my knowledge repository as well as GitHub.(Winks!)
 							<b>I am open to new opportunities to build world class technological solutions, 
