@@ -60,10 +60,10 @@
 							<h4>Follow Me</h4>
 						</div>
 						<div class="footer_social">
-						    <a href="https://www.github.com/Resa-Obamwonyi"><i class="fa fa-github"></i></a>
-							<a href="https://www.linkedin.com/in/theresa-obamwonyi">
+						    <a href="https://www.github.com/Resa-Obamwonyi" target="_blank" ><i class="fa fa-github"></i></a>
+							<a href="https://www.linkedin.com/in/theresa-obamwonyi" target="_blank" >
 							<i class="fa fa-linkedin"></i></a>
-							<a href="www.twitter.com/resa_wrights"><i class="fa fa-twitter"></i></a>
+							<a href="www.twitter.com/resa_wrights"><i class="fa fa-twitter" target="_blank" ></i></a>
 						</div>
 					</div>
 				</div>

@@ -79,7 +79,7 @@
 							freelancing and brain jostling
 							tech talk sessions</b>. Hit me up!
 						</p>
-						<a class="primary_btn"  target="_blank" href="https://drive.google.com/open?id=1hLeksNjVUEFjvxH17gKkJCgg3I6YJrPA"><span>Here's a look at my CV</span></a>
+						<a class="primary_btn"  target="_blank" href="https://drive.google.com/open?id=1ZHn4kPkn-HtF3_Wch5DFqXfU102vEmzj"><span>Here's a look at my CV</span></a>
 					</div>
 				</div>
 			</div>
@@ -106,15 +106,15 @@
 				</div>
 				<div class="col-md-4" >
 					<div>
-						<a href="http://immense-lake-93308.herokuapp.com/home" target="_blank" >
-							<img class="" src="img/s2.png" width="100%"alt="">
+						<a href="http://farmersbusinessonline.com" target="_blank" >
+							<img class="" src="img/s4.png" width="100%"alt="">
 						</a>
 					</div>
 				</div>
 				<div class="col-md-4" >
 					<div>
-						<a href="http://immense-lake-93308.herokuapp.com/home" target="_blank" >
-							<img class="" src="img/s3.png" width="100%"alt="">
+						<a href="http://farmersbusinessonline.com/index.php" target="_blank" >
+							<img class="" src="img/s7.png" width="100%"alt="">
 						</a>
 					</div>
 				</div>
