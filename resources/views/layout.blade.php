@@ -18,7 +18,6 @@
 	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="scss/card.scss">
 </head>
 <!--================ Start Header Area =================-->
 	<header class="header_area">
