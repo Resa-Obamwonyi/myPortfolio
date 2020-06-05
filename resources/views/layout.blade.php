@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="scss/card.scss">
 </head>
 <!--================ Start Header Area =================-->
 	<header class="header_area">
@@ -64,6 +65,9 @@
 							<a href="https://www.linkedin.com/in/theresa-obamwonyi" target="_blank" >
 							<i class="fa fa-linkedin"></i></a>
 							<a href="www.twitter.com/resa_wrights"><i class="fa fa-twitter" target="_blank" ></i></a>
+						</div>
+						<div class="footer_logo">
+							<p>&copy; Resa Obamwonyi 2020</p>
 						</div>
 					</div>
 				</div>
